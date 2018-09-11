@@ -1,0 +1,11 @@
+.lb-prev:hover {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+    text-decoration: none;
+}
+
+.lb-prev:before {
+    font-family: FontAwesome;
+    content: "\f053";
+    font-size: 30px;
+}
