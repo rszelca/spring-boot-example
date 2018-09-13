@@ -12,5 +12,6 @@ public class SpringBootExampleApplication {
 
     {
         System.out.print("forked version");
+        System.out.print("forked version");
     }
 }
