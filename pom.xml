@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ch.elca</groupId>
+    <groupId>com.rszelca</groupId>
     <artifactId>spring-boot-example</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -63,23 +63,16 @@
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
         </dependency>
-
-
     </dependencies>
 
 
     <build>
-
         <defaultGoal>install</defaultGoal>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-
-
-
-
             <plugin>
                 <groupId>cz.habarta.typescript-generator</groupId>
                 <artifactId>typescript-generator-maven-plugin</artifactId>
@@ -94,8 +87,8 @@
                         <configuration>
                             <jsonLibrary>jackson2</jsonLibrary>
                             <classes>
-                                <class>ch.elca.springbootexample.pojo.Tour</class>
-                                <class>ch.elca.springbootexample.pojo.Traveller</class>
+                                <class>com.rszelca.springbootexample.pojo.Tour</class>
+                                <class>com.rszelca.springbootexample.pojo.Traveller</class>
                             </classes>
                             <outputFile>../spring-boot-example-angular/src/app/model.ts</outputFile>
                             <outputFileType>implementationFile</outputFileType>
@@ -104,10 +97,6 @@
                     </execution>
                 </executions>
             </plugin>
-
         </plugins>
     </build>
-
-
-
 </project>

@@ -1,12 +1,8 @@
-package ch.elca.springbootexample.service;
+package com.rszelca.springbootexample.service;
 
-import ch.elca.springbootexample.pojo.Tour;
-import ch.elca.springbootexample.repository.TourRepository;
-import ch.elca.springbootexample.repository.TravellerRepository;
+import com.rszelca.springbootexample.repository.TravellerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 public class TravellerService {

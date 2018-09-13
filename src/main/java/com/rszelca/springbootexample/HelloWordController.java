@@ -1,4 +1,4 @@
-package ch.elca.springbootexample;
+package com.rszelca.springbootexample;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

@@ -1,6 +1,6 @@
-package ch.elca.springbootexample.repository;
+package com.rszelca.springbootexample.repository;
 
-import ch.elca.springbootexample.pojo.Traveller;
+import com.rszelca.springbootexample.pojo.Traveller;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;

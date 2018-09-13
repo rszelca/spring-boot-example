@@ -1,16 +1,12 @@
-package ch.elca.springbootexample.controller;
+package com.rszelca.springbootexample.controller;
 
-import ch.elca.springbootexample.pojo.Tour;
-import ch.elca.springbootexample.service.TourService;
-import ch.elca.springbootexample.service.TravellerService;
+import com.rszelca.springbootexample.pojo.Tour;
+import com.rszelca.springbootexample.service.TourService;
+import com.rszelca.springbootexample.service.TravellerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-import java.text.SimpleDateFormat;
-import java.util.Arrays;
-import java.util.Date;
 import java.util.List;
 
 @Controller

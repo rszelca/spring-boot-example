@@ -1,4 +1,4 @@
-package ch.elca.springbootexample;
+package com.rszelca.springbootexample;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

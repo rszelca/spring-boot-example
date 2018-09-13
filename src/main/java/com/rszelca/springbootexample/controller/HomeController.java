@@ -1,14 +1,12 @@
-package ch.elca.springbootexample.controller;
+package com.rszelca.springbootexample.controller;
 
-import ch.elca.springbootexample.service.TourService;
-import ch.elca.springbootexample.service.TravellerService;
+import com.rszelca.springbootexample.service.TourService;
+import com.rszelca.springbootexample.service.TravellerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import javax.swing.text.DateFormatter;
-import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 

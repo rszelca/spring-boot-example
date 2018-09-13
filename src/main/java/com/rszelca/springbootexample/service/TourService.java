@@ -1,8 +1,7 @@
-package ch.elca.springbootexample.service;
+package com.rszelca.springbootexample.service;
 
-import ch.elca.springbootexample.pojo.Tour;
-import ch.elca.springbootexample.repository.TourRepository;
-import ch.elca.springbootexample.repository.TravellerRepository;
+import com.rszelca.springbootexample.pojo.Tour;
+import com.rszelca.springbootexample.repository.TourRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -26,5 +25,12 @@ public class TourService {
         return tourRepo.findAll();
     }
 
+//    public void save(Tour t) {
+//        tourRepo.save(t);
+//    }
+//
+//    public void delete(Tour t) {
+//        tourRepo.delete(t);
+//    }
 
 }

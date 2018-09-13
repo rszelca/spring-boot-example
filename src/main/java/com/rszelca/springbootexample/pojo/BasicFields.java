@@ -1,4 +1,4 @@
-package ch.elca.springbootexample.pojo;
+package com.rszelca.springbootexample.pojo;
 
 import javax.persistence.*;
 import java.io.Serializable;

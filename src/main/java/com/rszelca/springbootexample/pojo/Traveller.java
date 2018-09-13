@@ -1,7 +1,6 @@
-package ch.elca.springbootexample.pojo;
+package com.rszelca.springbootexample.pojo;
 
 import javax.persistence.*;
-import java.util.Date;
 import java.util.List;
 import java.util.Objects;
 
@@ -22,14 +21,15 @@ public class Traveller extends BasicFields {
     public void setId(Long id) {
         this.id = id;
     }
-    //TODO Test, if I delete it, it should not delete in booth way?   mappedBy = "traveller" create an exception "SyntaxError: JSON.parse: unexpected end of data at line 1 column 167797 of the JSON data"
+
+    // TODO Test, if I delete it, it should not delete in booth way?
+    // TODO check with senior - mappedBy = "traveller" create an exception "SyntaxError: JSON.parse: unexpected end of data at line 1 column 167797 of the JSON data"
 //    @OneToMany(mappedBy = "traveller", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     private List<Tour> tours;
     private String nick;
     private int age;
     //TODO create enum Gender gender;
-
 
     public Traveller() {
     }

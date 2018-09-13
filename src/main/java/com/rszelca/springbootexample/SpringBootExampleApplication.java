@@ -1,4 +1,4 @@
-package ch.elca.springbootexample;
+package com.rszelca.springbootexample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
